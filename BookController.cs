@@ -28,8 +28,11 @@ public class Controller {
 
     }
 
-    
+
     public void DisplayBooks(Model model) {
         _view.Display(model);
+    }
+    public void Run() {
+        Console.WriteLine("Which operation do you wish too perform on the list of books in model?");
     }
 }
