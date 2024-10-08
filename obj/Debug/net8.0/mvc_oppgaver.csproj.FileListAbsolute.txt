@@ -1,0 +1,14 @@
+C:\Users\joach\Desktop\mvc_oppgaver\bin\Debug\net8.0\mvc_oppgaver.exe
+C:\Users\joach\Desktop\mvc_oppgaver\bin\Debug\net8.0\mvc_oppgaver.deps.json
+C:\Users\joach\Desktop\mvc_oppgaver\bin\Debug\net8.0\mvc_oppgaver.runtimeconfig.json
+C:\Users\joach\Desktop\mvc_oppgaver\bin\Debug\net8.0\mvc_oppgaver.dll
+C:\Users\joach\Desktop\mvc_oppgaver\bin\Debug\net8.0\mvc_oppgaver.pdb
+C:\Users\joach\Desktop\mvc_oppgaver\obj\Debug\net8.0\mvc_oppgaver.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joach\Desktop\mvc_oppgaver\obj\Debug\net8.0\mvc_oppgaver.AssemblyInfoInputs.cache
+C:\Users\joach\Desktop\mvc_oppgaver\obj\Debug\net8.0\mvc_oppgaver.AssemblyInfo.cs
+C:\Users\joach\Desktop\mvc_oppgaver\obj\Debug\net8.0\mvc_oppgaver.csproj.CoreCompileInputs.cache
+C:\Users\joach\Desktop\mvc_oppgaver\obj\Debug\net8.0\mvc_oppgaver.dll
+C:\Users\joach\Desktop\mvc_oppgaver\obj\Debug\net8.0\refint\mvc_oppgaver.dll
+C:\Users\joach\Desktop\mvc_oppgaver\obj\Debug\net8.0\mvc_oppgaver.pdb
+C:\Users\joach\Desktop\mvc_oppgaver\obj\Debug\net8.0\mvc_oppgaver.genruntimeconfig.cache
+C:\Users\joach\Desktop\mvc_oppgaver\obj\Debug\net8.0\ref\mvc_oppgaver.dll
