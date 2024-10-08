@@ -12,3 +12,4 @@ C:\Users\joach\Desktop\mvc_oppgaver\obj\Debug\net8.0\refint\mvc_oppgaver.dll
 C:\Users\joach\Desktop\mvc_oppgaver\obj\Debug\net8.0\mvc_oppgaver.pdb
 C:\Users\joach\Desktop\mvc_oppgaver\obj\Debug\net8.0\mvc_oppgaver.genruntimeconfig.cache
 C:\Users\joach\Desktop\mvc_oppgaver\obj\Debug\net8.0\ref\mvc_oppgaver.dll
+C:\Users\joach\Desktop\mvc_oppgaver\obj\Debug\net8.0\mvc_oppgaver.sourcelink.json
