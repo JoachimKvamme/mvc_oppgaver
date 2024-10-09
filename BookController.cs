@@ -69,6 +69,7 @@ public class Controller {
                 UpdateAuthor(bookId);
                 break;
                 default:
+                Console.WriteLine("You must choose to update either title, year or author");
                 break;
             }
             
