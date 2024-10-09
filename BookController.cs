@@ -72,8 +72,14 @@ public class Controller {
             
             break;
             case "remove":
+            DisplayBooks();
+            Console.WriteLine("Please enter the Id of the book you want to remove, or enter a letter to quit");
+            int removeId = int.Parse(Console.ReadLine());
+            RemoveBook(removeId);
+            DisplayBooks();
             break;
             case "add":
+            
             break;
             case "view":
             DisplayBooks();
