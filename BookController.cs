@@ -42,9 +42,11 @@ public class Controller {
         _view.Display(_model);
     }
     public void Run() {
+        bool flag = true;
+        while (flag) {
         Console.WriteLine("Which operation do you wish too perform on the list of books in model?");
         Console.WriteLine("You can choose to update a book based on the id, remove a book by id, or add a completely new book");
-        Console.WriteLine("To update, type 'update', to remove type 'remove' og to add type 'add'");
+        Console.WriteLine("To update, type 'update', to remove type 'remove' og to add type 'add'. If you want to see the full list of books, type 'view'. To quit write 'quit' or 'q'.");
 
         string? userInput = Console.ReadLine();
         switch (userInput) {
@@ -57,11 +59,11 @@ public class Controller {
             string updateChoice = Console.ReadLine();
             switch (updateChoice) {
                 case "title":
-                UpdateTitle(bookId-1);
+                UpdateTitle(bookId);
                 DisplayBooks();
                 break;
                 case "year":
-                UpdateYear(bookId-1);
+                UpdateYear(bookId);
                 break;
                 case "author":
                 UpdateAuthor(bookId);
@@ -73,20 +75,34 @@ public class Controller {
             break;
             case "remove":
             DisplayBooks();
-            Console.WriteLine("Please enter the Id of the book you want to remove, or enter a letter to quit");
+            Console.WriteLine("Please enter the Id of the book you want to remove.");
             int removeId = int.Parse(Console.ReadLine());
             RemoveBook(removeId);
             DisplayBooks();
             break;
             case "add":
-            
+            DisplayBooks();
+            Console.WriteLine("What is the title of the book you wish to add?");
+            string title = Console.ReadLine();
+            Console.WriteLine("What is the author of the book you wish to add?");
+            string author = Console.ReadLine();
+            Console.WriteLine("What year was the book released?");
+            int year = int.Parse(Console.ReadLine());
+            Book newBook = new Book(title,author,year);
+            _model.Books.Add(newBook);
+            DisplayBooks();
             break;
             case "view":
             DisplayBooks();
             break;
+            case "quit":
+            case "q":
+            flag = false;
+            break;
             default:
             Console.WriteLine("You must choose to update, remove og add, with the correct prompts.");
             break;
+        }
         }
 
     }

@@ -13,6 +13,7 @@ class Program
         view.Display(model);
         //controller.UpdateTitle(1);
         view.Display(model);
+        
         controller.Run();
 
         
